@@ -14,15 +14,11 @@ A Splunk dashboard to analyze network connections with filters for IPs, status, 
 - Custom Exclusions: regex-based filters to hide lab/test systems
 - Visual highlights: color-coding for Permit/Deny/Unknown
 
-## Installation
-1) Clone:
-```bash
-git clone https://github.com/Tongan310/simplified-ip-connection-analyzer.git
-
-
 ---
 
 ## Installation
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/Tongan310/simplified-ip-connection-analyzer.git
+import into Splunk:
+
+Splunk > Dashboards > Create New > Import XML
+
+Paste the contents of dashboard.xml
